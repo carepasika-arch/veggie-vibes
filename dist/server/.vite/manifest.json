@@ -9,8 +9,8 @@
     "file": "assets/styles-tbHzvern.css",
     "src": "/Users/phasikapathomwong/Downloads/code/src/styles.css"
   },
-  "_server-zlN7gSuc.js": {
-    "file": "assets/server-zlN7gSuc.js",
+  "_server-Dht79Gto.js": {
+    "file": "assets/server-Dht79Gto.js",
     "name": "server",
     "isDynamicEntry": true,
     "dynamicImports": [
@@ -20,11 +20,11 @@
       "%23tanstack-start-plugin-adapters"
     ]
   },
-  "_worker-entry-nd2u6LDh.js": {
-    "file": "assets/worker-entry-nd2u6LDh.js",
+  "_worker-entry-HuaXYFUy.js": {
+    "file": "assets/worker-entry-HuaXYFUy.js",
     "name": "worker-entry",
     "dynamicImports": [
-      "_server-zlN7gSuc.js"
+      "_server-Dht79Gto.js"
     ]
   },
   "src/assets/hero-red.jpg": {
@@ -68,12 +68,12 @@
     "src": "src/assets/lineup.jpg"
   },
   "src/router.tsx": {
-    "file": "assets/router-DqU5aa5c.js",
+    "file": "assets/router-Cbumjl0T.js",
     "name": "router",
     "src": "src/router.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_server-zlN7gSuc.js"
+      "_server-Dht79Gto.js"
     ],
     "dynamicImports": [
       "src/routes/index.tsx?tsr-split=component"
@@ -83,12 +83,12 @@
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-C6CFi6_3.js",
+    "file": "assets/index-DYTTQOPx.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_server-zlN7gSuc.js"
+      "_server-Dht79Gto.js"
     ],
     "assets": [
       "assets/hero-red-D9-gYyDg.jpg",
@@ -104,16 +104,17 @@
     ]
   },
   "src/start.ts": {
-    "file": "assets/start-CRzMccCd.js",
+    "file": "assets/start-noOXsSm5.js",
     "name": "start",
     "src": "src/start.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_worker-entry-nd2u6LDh.js"
+      "_server-Dht79Gto.js",
+      "_worker-entry-HuaXYFUy.js"
     ]
   },
   "tanstack-start-manifest:v": {
-    "file": "assets/_tanstack-start-manifest_v-B5Ba1LDC.js",
+    "file": "assets/_tanstack-start-manifest_v-DYcexUyC.js",
     "name": "_tanstack-start-manifest_v",
     "src": "tanstack-start-manifest:v",
     "isDynamicEntry": true
@@ -124,7 +125,7 @@
     "src": "virtual:cloudflare/worker-entry",
     "isEntry": true,
     "imports": [
-      "_worker-entry-nd2u6LDh.js"
+      "_worker-entry-HuaXYFUy.js"
     ]
   }
 }
