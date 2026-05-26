@@ -2,10 +2,26 @@ import lineup from "@/assets/lineup.jpg";
 import juiceCoconut from "@/assets/juice-coconut.jpg";
 
 const points = [
-  { num: "01", title: "Fresh ingredients", desc: "Sourced from local Thai farms — picked at peak ripeness." },
-  { num: "02", title: "Wellness-focused", desc: "Designed by nutritionists to fit real, busy lifestyles." },
-  { num: "03", title: "Convenient healthy choice", desc: "Grab-and-go bottles that travel with you everywhere." },
-  { num: "04", title: "Freshly made & delivered", desc: "From press to your door in under 24 hours via GrabFood." },
+  {
+    num: "01",
+    title: "Fresh ingredients",
+    desc: "Sourced from local Thai farms — picked at peak ripeness.",
+  },
+  {
+    num: "02",
+    title: "Wellness-focused",
+    desc: "Designed by nutritionists to fit real, busy lifestyles.",
+  },
+  {
+    num: "03",
+    title: "Convenient healthy choice",
+    desc: "Grab-and-go bottles that travel with you everywhere.",
+  },
+  {
+    num: "04",
+    title: "Freshly made & delivered",
+    desc: "From press to your door in under 24 hours via GrabFood.",
+  },
 ];
 
 export function WhyUs() {
@@ -33,14 +49,20 @@ export function WhyUs() {
         </div>
 
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-berry)]">Why Veggie Vibes</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-berry)]">
+            Why Veggie Vibes
+          </p>
           <h2 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">
-            A juice<br />
-            <span className="italic font-[600] text-[var(--color-leaf)]">worth the squeeze.</span>
+            A juice
+            <br />
+            <span className="italic font-[600] text-[var(--color-leaf)]">
+              worth the squeeze.
+            </span>
           </h2>
           <p className="mt-6 text-muted-foreground text-lg max-w-md">
-            We started Veggie Vibes because Bangkok deserves real juice — not from concentrate,
-            not over-pasteurized, not sweetened. Just produce, pressed.
+            We started Veggie Vibes because Bangkok deserves real juice — not
+            from concentrate, not over-pasteurized, not sweetened. Just produce,
+            pressed.
           </p>
 
           <ul className="mt-10 space-y-5">

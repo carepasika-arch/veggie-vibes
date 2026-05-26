@@ -14,10 +14,18 @@ export function Nav() {
           </span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-          <a href="#benefits" className="hover:text-primary transition-colors">Benefits</a>
-          <a href="#products" className="hover:text-primary transition-colors">Juices</a>
-          <a href="#why" className="hover:text-primary transition-colors">Why us</a>
-          <a href="#love" className="hover:text-primary transition-colors">Review</a>
+          <a href="#benefits" className="hover:text-primary transition-colors">
+            Benefits
+          </a>
+          <a href="#products" className="hover:text-primary transition-colors">
+            Juices
+          </a>
+          <a href="#why" className="hover:text-primary transition-colors">
+            Why us
+          </a>
+          <a href="#love" className="hover:text-primary transition-colors">
+            Review
+          </a>
         </nav>
         <a
           href={GRAB_URL}

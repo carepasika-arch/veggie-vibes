@@ -43,10 +43,15 @@ export function Products() {
     <section id="products" className="relative py-24 md:py-32 bg-secondary/40">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-leaf)]">The lineup</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-leaf)]">
+            The lineup
+          </p>
           <h2 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">
-            Four flavors,<br />
-            <span className="italic font-[600] text-[var(--color-tomato)]">infinite vibes.</span>
+            Four flavors,
+            <br />
+            <span className="italic font-[600] text-[var(--color-tomato)]">
+              infinite vibes.
+            </span>
           </h2>
         </div>
 
@@ -74,13 +79,22 @@ export function Products() {
                 </span>
               </div>
               <div className="p-6">
-                <h3 className="font-display font-bold text-foreground font-sans">{p.name}</h3>
-                <p className="text-xs font-semibold uppercase tracking-wider mt-1" style={{ color: p.accent }}>
+                <h3 className="font-display font-bold text-foreground font-sans">
+                  {p.name}
+                </h3>
+                <p
+                  className="text-xs font-semibold uppercase tracking-wider mt-1"
+                  style={{ color: p.accent }}
+                >
                   {p.tag}
                 </p>
-                <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.desc}</p>
+                <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                  {p.desc}
+                </p>
                 <div className="mt-5 flex items-center justify-between">
-                  <span className="font-display text-xl font-black font-sans">฿80</span>
+                  <span className="font-display text-xl font-black font-sans">
+                    ฿80
+                  </span>
                   <span className="text-xs text-muted-foreground">250ml</span>
                 </div>
               </div>

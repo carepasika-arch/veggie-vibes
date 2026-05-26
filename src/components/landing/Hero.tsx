@@ -22,17 +22,30 @@ export function Hero() {
           <h1 className="mt-6 font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black leading-[0.95] tracking-tight">
             Freshness
             <br />
-            <span className="italic font-[600] text-[var(--color-tomato)]">you can</span>{" "}
+            <span className="italic font-[600] text-[var(--color-tomato)]">
+              you can
+            </span>{" "}
             <span className="relative inline-block">
               feel.
-              <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" fill="none" aria-hidden>
-                <path d="M2 8 C 50 -2, 150 14, 198 4" stroke="var(--color-citrus)" strokeWidth="5" strokeLinecap="round" />
+              <svg
+                className="absolute -bottom-2 left-0 w-full"
+                viewBox="0 0 200 12"
+                fill="none"
+                aria-hidden
+              >
+                <path
+                  d="M2 8 C 50 -2, 150 14, 198 4"
+                  stroke="var(--color-citrus)"
+                  strokeWidth="5"
+                  strokeLinecap="round"
+                />
               </svg>
             </span>
           </h1>
           <p className="mt-7 text-lg text-muted-foreground max-w-lg leading-relaxed">
-            Cold-pressed vegetable & fruit juice — bottled within hours of harvest.
-            No added sugar, no shortcuts. Just bright, living flavor in every sip.
+            Cold-pressed vegetable & fruit juice — bottled within hours of
+            harvest. No added sugar, no shortcuts. Just bright, living flavor in
+            every sip.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
@@ -42,7 +55,9 @@ export function Hero() {
               className="group inline-flex items-center gap-3 rounded-full bg-foreground text-background px-7 py-4 text-base font-semibold shadow-[0_10px_30px_-10px_var(--color-tomato)] hover:bg-primary transition-all hover:-translate-y-0.5"
             >
               View On Grab
-              <span className="transition-transform group-hover:translate-x-1">→</span>
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
             </a>
             <div className="flex items-center gap-3">
               <div className="flex -space-x-2">
@@ -51,7 +66,8 @@ export function Hero() {
                 <span className="size-9 rounded-full bg-[var(--color-citrus)] border-2 border-background" />
               </div>
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">2,400+</span> happy sippers
+                <span className="font-semibold text-foreground">2,400+</span>{" "}
+                happy sippers
               </p>
             </div>
           </div>
@@ -81,10 +97,21 @@ export function Hero() {
             <div className="absolute -right-4 bottom-10 sm:-right-10 size-28 sm:size-36 rounded-full bg-foreground text-background grid place-items-center animate-spin-slow">
               <svg viewBox="0 0 100 100" className="absolute inset-0 size-full">
                 <defs>
-                  <path id="circle" d="M 50,50 m -36,0 a 36,36 0 1,1 72,0 a 36,36 0 1,1 -72,0" />
+                  <path
+                    id="circle"
+                    d="M 50,50 m -36,0 a 36,36 0 1,1 72,0 a 36,36 0 1,1 -72,0"
+                  />
                 </defs>
-                <text fontSize="9" fontWeight="700" letterSpacing="2" fill="currentColor" fontFamily="Inter">
-                  <textPath href="#circle">100% NATURAL · NO SUGAR · COLD-PRESSED · </textPath>
+                <text
+                  fontSize="9"
+                  fontWeight="700"
+                  letterSpacing="2"
+                  fill="currentColor"
+                  fontFamily="Inter"
+                >
+                  <textPath href="#circle">
+                    100% NATURAL · NO SUGAR · COLD-PRESSED ·{" "}
+                  </textPath>
                 </text>
               </svg>
               <span className="font-display text-2xl sm:text-3xl">★</span>
@@ -92,7 +119,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-
     </section>
   );
 }

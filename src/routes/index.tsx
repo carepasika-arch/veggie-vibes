@@ -12,7 +12,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Veggie Vibes — Freshness You Can Feel" },
-      { name: "description", content: "Cold-pressed vegetable & fruit juice made fresh daily. No added sugar. Order Veggie Vibes on GrabFood." },
+      {
+        name: "description",
+        content:
+          "Cold-pressed vegetable & fruit juice made fresh daily. No added sugar. Order Veggie Vibes on GrabFood.",
+      },
     ],
   }),
   component: Index,

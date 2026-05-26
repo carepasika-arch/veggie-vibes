@@ -13,14 +13,19 @@ export function FinalCta() {
 
           <div className="relative grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest opacity-80">Ready when you are</p>
+              <p className="text-sm font-semibold uppercase tracking-widest opacity-80">
+                Ready when you are
+              </p>
               <h2 className="mt-3 font-display text-5xl sm:text-6xl lg:text-7xl font-black leading-[0.95]">
-                One tap.<br />
-                <span className="italic font-[600]">One sip.</span><br />
+                One tap.
+                <br />
+                <span className="italic font-[600]">One sip.</span>
+                <br />
                 Pure good.
               </h2>
               <p className="mt-6 text-lg opacity-90 max-w-md">
-                Order Veggie Vibes on GrabFood and we'll deliver fresh-pressed bottles straight to your door.
+                Order Veggie Vibes on GrabFood and we'll deliver fresh-pressed
+                bottles straight to your door.
               </p>
               <a
                 href={GRAB_URL}
@@ -29,7 +34,9 @@ export function FinalCta() {
                 className="group mt-10 inline-flex items-center gap-3 rounded-full bg-background text-foreground px-8 py-5 text-lg font-bold shadow-xl hover:-translate-y-1 transition-transform"
               >
                 Order on GrabFood
-                <span className="transition-transform group-hover:translate-x-1">→</span>
+                <span className="transition-transform group-hover:translate-x-1">
+                  →
+                </span>
               </a>
             </div>
 

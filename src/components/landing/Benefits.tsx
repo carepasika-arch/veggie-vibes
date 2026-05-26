@@ -31,15 +31,20 @@ export function Benefits() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-wrap items-end justify-between gap-6 mb-16">
           <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-tomato)]">Why we squeeze</p>
+            <p className="text-sm font-semibold uppercase tracking-widest text-[var(--color-tomato)]">
+              Why we squeeze
+            </p>
             <h2 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">
-              Good things,<br />
-              <span className="italic font-[600] text-[var(--color-leaf)]">pressed in.</span>
+              Good things,
+              <br />
+              <span className="italic font-[600] text-[var(--color-leaf)]">
+                pressed in.
+              </span>
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm text-base">
-            Every bottle is a tiny ritual of care — picked, washed, pressed and bottled
-            within hours.
+            Every bottle is a tiny ritual of care — picked, washed, pressed and
+            bottled within hours.
           </p>
         </div>
 
@@ -60,8 +65,12 @@ export function Benefits() {
                 >
                   {it.icon}
                 </div>
-                <h3 className="font-display font-bold text-foreground font-sans">{it.title}</h3>
-                <p className="mt-3 text-muted-foreground text-sm leading-relaxed">{it.desc}</p>
+                <h3 className="font-display font-bold text-foreground font-sans">
+                  {it.title}
+                </h3>
+                <p className="mt-3 text-muted-foreground text-sm leading-relaxed">
+                  {it.desc}
+                </p>
                 <div className="mt-6 text-xs font-mono tracking-widest text-foreground/40">
                   0{i + 1} / 04
                 </div>
